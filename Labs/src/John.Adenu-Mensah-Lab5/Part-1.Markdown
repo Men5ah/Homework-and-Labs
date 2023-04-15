@@ -1,4 +1,9 @@
 
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
+</script>
+
 # Lab assignment 5
 
 ## Part 1
@@ -37,10 +42,9 @@
 
 1. ArrayList and LinkedList both implement the list interface as general purpose implementations.CopyOnWriteArrayList is a special-purpose list implementation. Classes like HashMap, TreeMap, and LinkedMap are implementations of the Map interface.
 
+![](https://mermaid.ink/img/pako:eNqtksFqwzAMQH_FiB06lv5AKIGxXQrdKVdDEbaSmSVyJ9uH0qXfPifrNu9Q6GE6CevpCcs-gfGWoAYzYAjPDnvBUbPKsZyoLUfxNpnoPD_5YaAlC-r0Bc2xcyGqcxvFcX9WjCOF3-ILHr5r--yinuTCPPYl9yCEto3JEsctd341W_9Kq1l23XV_V9jeE8nxX3RTuY3ZUtx8s3G5Tzo01DQ_eNmQR9zIX1v0ev3RLHNvwPI0zVDBSDKis_lZl-Ea4iuNpKHOqUV506B5yhym6NsjG6ijJKogHSxGuvwCqDscAk2fcHy4Wg?type=png)
+<!-- 
 ```mermaid
----
-title: UML Diagram
----
 classDiagram
     class IntroductionCollections {
         List ~String~ names
@@ -59,4 +63,4 @@ classDiagram
     IntroductionCollections --|> List
     IntroductionCollections --|> Map
 
-```
+``` -->
